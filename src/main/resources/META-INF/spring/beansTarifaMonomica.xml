@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!--
+	************************************************************************************************************************* 
+		153 
+	*************************************************************************************************************************
+	-->
+	<bean id="tarifa153Monomica" class="com.logicalnode.tarsys.domain.tarifa.media.TarifaMonomica">
+		<property name="codigoDeCategoriaDeTarifa" value="153"/>
+		<property name="instalacionDeEntrega" value="LineaDeMediaTension"/>
+		<property name="tensionDeAbastecimiento">
+			<list>
+				<value>23000</value>
+				<value>13279</value>
+			</list>
+		</property>
+		<property name="grupoDeConsumo" value="Residencial"/>
+		<property name="consumos">
+			<bean id="consumo153Energia" class="com.logicalnode.tarsys.domain.tarifa.media.CostoDelTipoDeConsumo">
+				<property name="id" value="consumo153Energia"/>
+				<property name="nombreDeConcepto" value="Energia"/>
+				<property name="unidad" value="GsXkWHora"/>
+				<property name="costo" value="256.65"/>
+			</bean>
+		</property>
+	</bean>
+
+
+	<!--
+	************************************************************************************************************************* 
+		263 
+	*************************************************************************************************************************
+	-->
+	<bean id="tarifa263Monomica" class="com.logicalnode.tarsys.domain.tarifa.media.TarifaMonomica">
+		<property name="codigoDeCategoriaDeTarifa" value="263"/>
+		<property name="instalacionDeEntrega" value="LineaDeMediaTension"/>
+		<property name="tensionDeAbastecimiento">
+			<list>
+				<value>23000</value>
+				<value>13279</value>
+			</list>
+		</property>
+		<property name="grupoDeConsumo" value="Comercial"/>
+		<property name="consumos">
+			<bean id="consumo263Energia" class="com.logicalnode.tarsys.domain.tarifa.media.CostoDelTipoDeConsumo">
+				<property name="id" value="consumo263Energia"/>
+				<property name="nombreDeConcepto" value="Energia"/>
+				<property name="unidad" value="GsXkWHora"/>
+				<property name="costo" value="298.16"/>
+			</bean>
+		</property>
+	</bean>
+
+	<!--
+	************************************************************************************************************************* 
+		373 
+	*************************************************************************************************************************
+	-->
+	<bean id="tarifa373Monomica" class="com.logicalnode.tarsys.domain.tarifa.media.TarifaMonomica">
+		<property name="codigoDeCategoriaDeTarifa" value="373"/>
+		<property name="instalacionDeEntrega" value="LineaDeMediaTension"/>
+		<property name="tensionDeAbastecimiento">
+			<list>
+				<value>23000</value>
+				<value>13279</value>
+			</list>
+		</property>
+		<property name="grupoDeConsumo" value="Industrial"/>
+		<property name="consumos">
+			<bean id="consumo373Energia" class="com.logicalnode.tarsys.domain.tarifa.media.CostoDelTipoDeConsumo">
+				<property name="id" value="consumo373Energia"/>
+				<property name="nombreDeConcepto" value="Energia"/>
+				<property name="unidad" value="GsXkWHora"/>
+				<property name="costo" value="208.99"/>
+			</bean>
+		</property>
+	</bean>
+
+	<!--
+	************************************************************************************************************************* 
+		533 
+	*************************************************************************************************************************
+	-->
+	<bean id="tarifa533Monomica" class="com.logicalnode.tarsys.domain.tarifa.media.TarifaMonomica">
+		<property name="codigoDeCategoriaDeTarifa" value="533"/>
+		<property name="instalacionDeEntrega" value="LineaDeMediaTension"/>
+		<property name="tensionDeAbastecimiento">
+			<list>
+				<value>23000</value>
+				<value>13279</value>
+			</list>
+		</property>
+		<property name="grupoDeConsumo" value="General"/>
+		<property name="consumos">
+			<bean id="consumo533Energia" class="com.logicalnode.tarsys.domain.tarifa.media.CostoDelTipoDeConsumo">
+				<property name="id" value="consumo533Energia"/>
+				<property name="nombreDeConcepto" value="Energia"/>
+				<property name="unidad" value="GsXkWHora"/>
+				<property name="costo" value="297.85"/>
+			</bean>
+		</property>
+	</bean>
+
+	<!--
+	************************************************************************************************************************* 
+		833 
+	*************************************************************************************************************************
+	-->
+	<bean id="tarifa833Monomica" class="com.logicalnode.tarsys.domain.tarifa.media.TarifaMonomica">
+		<property name="codigoDeCategoriaDeTarifa" value="833"/>
+		<property name="instalacionDeEntrega" value="LineaDeMediaTension"/>
+		<property name="tensionDeAbastecimiento">
+			<list>
+				<value>23000</value>
+				<value>13279</value>
+			</list>
+		</property>
+		<property name="grupoDeConsumo" value="Gubernamental"/>
+		<property name="consumos">
+			<bean id="consumo833Energia" class="com.logicalnode.tarsys.domain.tarifa.media.CostoDelTipoDeConsumo">
+				<property name="id" value="consumo833Energia"/>
+				<property name="nombreDeConcepto" value="Energia"/>
+				<property name="unidad" value="GsXkWHora"/>
+				<property name="costo" value="180.91"/>
+			</bean>
+		</property>
+	</bean>
+
+</beans>

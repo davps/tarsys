@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	
+
+<!-- 	<bean id="factura1" class="com.logicalnode.tarsys.domain.Factura"> -->
+<!-- 		<property name="categoria" value="261"/> -->
+<!-- 		<property name="numeroDeFactura" value="1001"/> -->
+<!-- 		<property name="informacionDeConsumos"> -->
+<!-- 			<list> -->
+<!-- 				<bean id="factura1medidor173760PotenciaReservada" class="com.logicalnode.tarsys.domain.InformacionDeConsumoCobradoEnFactura"> -->
+<!-- 					<property name="id" value="factura1medidor173760PotenciaReservada"/> -->
+<!-- 					<property name="numeroDeMedidor" value="173760"/> -->
+<!-- 					<property name="tipoDeConsumo" value="PotenciaReservada"/> -->
+<!-- 					<property name="lectura" value="3000"/> -->
+<!-- 					<property name="constante" value="1"/> -->
+<!-- 				</bean> -->
+<!-- 				<bean id="factura1medidor173760ExcesoDePotenciaReservada" class="com.logicalnode.tarsys.domain.InformacionDeConsumoCobradoEnFactura"> -->
+<!-- 					<property name="id" value="factura1medidor173760ExcesoDePotenciaReservada"/> -->
+<!-- 					<property name="numeroDeMedidor" value="173760"/> -->
+<!-- 					<property name="tipoDeConsumo" value="ExcesoDePotenciaReservada"/> -->
+<!-- 					<property name="lectura" value="100"/> -->
+<!-- 					<property name="constante" value="1"/> -->
+<!-- 				</bean> -->
+<!-- 				<bean id="factura1medidor173760EnergiaEnPunta" class="com.logicalnode.tarsys.domain.InformacionDeConsumoCobradoEnFactura"> -->
+<!-- 					<property name="id" value="factura1medidor173760EnergiaEnPunta"/> -->
+<!-- 					<property name="numeroDeMedidor" value="173760"/> -->
+<!-- 					<property name="tipoDeConsumo" value="EnergiaEnPunta"/> -->
+<!-- 					<property name="lectura" value="100000"/> -->
+<!-- 					<property name="constante" value="1"/> -->
+<!-- 				</bean> -->
+<!-- 				<bean id="factura1medidor173760EnergiaFueraDePunta" class="com.logicalnode.tarsys.domain.InformacionDeConsumoCobradoEnFactura"> -->
+<!-- 					<property name="id" value="factura1medidor173760EnergiaFueraDePunta"/> -->
+<!-- 					<property name="numeroDeMedidor" value="173760"/> -->
+<!-- 					<property name="tipoDeConsumo" value="EnergiaFueraDePunta"/> -->
+<!-- 					<property name="lectura" value="10000"/> -->
+<!-- 					<property name="constante" value="1"/> -->
+<!-- 				</bean> -->
+<!-- 			</list> -->
+<!-- 		</property> -->
+<!-- 	</bean> -->
+
+<!-- 	<bean id="factura2" class="com.logicalnode.tarsys.domain.Factura"> -->
+<!-- 		<property name="categoria" value="152"/> -->
+<!-- 		<property name="numeroDeFactura" value="1002"/> -->
+<!-- 		<property name="informacionDeConsumos"> -->
+<!-- 			<list> -->
+<!-- 				<bean id="factura2medidor173760PotenciaReservada" class="com.logicalnode.tarsys.domain.InformacionDeConsumoCobradoEnFactura"> -->
+<!-- 					<property name="id" value="factura2medidor173760PotenciaReservada"/> -->
+<!-- 					<property name="numeroDeMedidor" value="173760"/> -->
+<!-- 					<property name="tipoDeConsumo" value="PotenciaReservada"/> -->
+<!-- 					<property name="lectura" value="1000"/> -->
+<!-- 					<property name="constante" value="1"/> -->
+<!-- 				</bean> -->
+<!-- 				<bean id="factura2medidor173760ExcesoDePotenciaReservada" class="com.logicalnode.tarsys.domain.InformacionDeConsumoCobradoEnFactura"> -->
+<!-- 					<property name="id" value="factura2medidor173760ExcesoDePotenciaReservada"/> -->
+<!-- 					<property name="numeroDeMedidor" value="173760"/> -->
+<!-- 					<property name="tipoDeConsumo" value="ExcesoDePotenciaReservada"/> -->
+<!-- 					<property name="lectura" value="100"/> -->
+<!-- 					<property name="constante" value="1"/> -->
+<!-- 				</bean> -->
+<!-- 				<bean id="factura2medidor173760EnergiaEnPunta" class="com.logicalnode.tarsys.domain.InformacionDeConsumoCobradoEnFactura"> -->
+<!-- 					<property name="id" value="factura2medidor173760EnergiaEnPunta"/> -->
+<!-- 					<property name="numeroDeMedidor" value="173760"/> -->
+<!-- 					<property name="tipoDeConsumo" value="EnergiaEnPunta"/> -->
+<!-- 					<property name="lectura" value="10000"/> -->
+<!-- 					<property name="constante" value="1"/> -->
+<!-- 				</bean> -->
+<!-- 				<bean id="factura2medidor173760EnergiaFueraDePunta" class="com.logicalnode.tarsys.domain.InformacionDeConsumoCobradoEnFactura"> -->
+<!-- 					<property name="id" value="factura2medidor173760EnergiaFueraDePunta"/> -->
+<!-- 					<property name="numeroDeMedidor" value="173760"/> -->
+<!-- 					<property name="tipoDeConsumo" value="EnergiaFueraDePunta"/> -->
+<!-- 					<property name="lectura" value="1000"/> -->
+<!-- 					<property name="constante" value="1"/> -->
+<!-- 				</bean> -->
+<!-- 			</list> -->
+<!-- 		</property> -->
+<!-- 	</bean> -->
+	
+<!-- 	<bean id="factura3" class="com.logicalnode.tarsys.domain.Factura"> -->
+<!-- 		<property name="categoria" value="152"/> -->
+<!-- 		<property name="numeroDeFactura" value="1003"/> -->
+<!-- 		<property name="informacionDeConsumos"> -->
+<!-- 			<list> -->
+<!-- 				<bean id="factura2medidor173760Energia" class="com.logicalnode.tarsys.domain.InformacionDeConsumoCobradoEnFactura"> -->
+<!-- 					<property name="id" value="factura2medidor173760Energia"/> -->
+<!-- 					<property name="numeroDeMedidor" value="173760"/> -->
+<!-- 					<property name="tipoDeConsumo" value="Energia"/> -->
+<!-- 					<property name="lectura" value="10000"/> -->
+<!-- 					<property name="constante" value="1"/> -->
+<!-- 				</bean> -->
+<!-- 			</list> -->
+<!-- 		</property> -->
+<!-- 	</bean> -->
+
+	
+</beans>

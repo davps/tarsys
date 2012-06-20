@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!--
+	************************************************************************************************************************* 
+		152 
+	*************************************************************************************************************************
+	-->
+	<bean id="tarifa152BinomicaLinea" class="com.logicalnode.tarsys.domain.tarifa.media.TarifaBinomicaLinea">
+		<property name="codigoDeCategoriaDeTarifa" value="152"/>
+		<property name="instalacionDeEntrega" value="LineaDeMediaTension"/>
+		<property name="tensionDeAbastecimiento" value="23000"/>
+		<property name="potenciaReservadaMaxima" value="3000000"/>
+		<property name="potenciaReservadaMinima" value="40100"/>
+		<property name="grupoDeConsumo" value="Comercial"/>
+		<property name="consumos">
+			<list>
+				<bean id="consumo152PotenciaReservada" class="com.logicalnode.tarsys.domain.tarifa.media.CostoDelTipoDeConsumo">
+					<property name="id" value="consumo152PotenciaReservada"/>
+					<property name="nombreDeConcepto" value="PotenciaReservada"/>
+					<property name="unidad" value="GsXkWMes"/>
+					<property name="costo" value="35088"/>
+				</bean>
+			
+				<bean id="consumo152ExcesoDePotenciaReservada" class="com.logicalnode.tarsys.domain.tarifa.media.CostoDelTipoDeConsumo">
+					<property name="id" value="consumo152ExcesoDePotenciaReservada"/>
+					<property name="nombreDeConcepto" value="ExcesoDePotenciaReservada"/>
+					<property name="unidad" value="GsXkWMes"/>
+					<property name="costo" value="43797"/>
+				</bean>
+			
+				<bean id="consumo152EnergiaEnPunta" class="com.logicalnode.tarsys.domain.tarifa.media.CostoDelTipoDeConsumo">
+					<property name="id" value="consumo152EnergiaEnPunta"/>
+					<property name="nombreDeConcepto" value="EnergiaEnPunta"/>
+					<property name="unidad" value="GsXkWHora"/>
+					<property name="costo" value="233.70"/>
+				</bean>
+			
+				<bean id="consumo152EnergiaFueraDePunta" class="com.logicalnode.tarsys.domain.tarifa.media.CostoDelTipoDeConsumo">
+					<property name="id" value="consumo152EnergiaFueraDePunta"/>
+					<property name="nombreDeConcepto" value="EnergiaFueraDePunta"/>
+					<property name="unidad" value="GsXkWHora"/>
+					<property name="costo" value="93.48"/>
+				</bean>
+			</list>
+		</property>
+	</bean>
+
+	<!--
+	************************************************************************************************************************* 
+		262 
+	*************************************************************************************************************************
+	-->
+	<bean id="tarifa262BinomicaLinea" class="com.logicalnode.tarsys.domain.tarifa.media.TarifaBinomicaLinea">
+		<property name="codigoDeCategoriaDeTarifa" value="262"/>
+		<property name="instalacionDeEntrega" value="LineaDeMediaTension"/>
+		<property name="tensionDeAbastecimiento" value="23000"/>
+		<property name="potenciaReservadaMaxima" value="3000000"/>
+		<property name="potenciaReservadaMinima" value="40100"/>
+		<property name="grupoDeConsumo" value="Comercial"/>
+		<property name="consumos">
+			<list>
+				<bean id="consumo262PotenciaReservada" class="com.logicalnode.tarsys.domain.tarifa.media.CostoDelTipoDeConsumo">
+					<property name="id" value="consumo262PotenciaReservada"/>
+					<property name="nombreDeConcepto" value="PotenciaReservada"/>
+					<property name="unidad" value="GsXkWMes"/>
+					<property name="costo" value="36320"/>
+				</bean>
+			
+				<bean id="consumo262ExcesoDePotenciaReservada" class="com.logicalnode.tarsys.domain.tarifa.media.CostoDelTipoDeConsumo">
+					<property name="id" value="consumo262ExcesoDePotenciaReservada"/>
+					<property name="nombreDeConcepto" value="ExcesoDePotenciaReservada"/>
+					<property name="unidad" value="GsXkWMes"/>
+					<property name="costo" value="45337"/>
+				</bean>
+			
+				<bean id="consumo262EnergiaEnPunta" class="com.logicalnode.tarsys.domain.tarifa.media.CostoDelTipoDeConsumo">
+					<property name="id" value="consumo262EnergiaEnPunta"/>
+					<property name="nombreDeConcepto" value="EnergiaEnPunta"/>
+					<property name="unidad" value="GsXkWHora"/>
+					<property name="costo" value="241.90"/>
+				</bean>
+			
+				<bean id="consumo262EnergiaFueraDePunta" class="com.logicalnode.tarsys.domain.tarifa.media.CostoDelTipoDeConsumo">
+					<property name="id" value="consumo262EnergiaFueraDePunta"/>
+					<property name="nombreDeConcepto" value="EnergiaFueraDePunta"/>
+					<property name="unidad" value="GsXkWHora"/>
+					<property name="costo" value="96.65"/>
+				</bean>
+			</list>
+		</property>
+	</bean>
+	
+	<!--
+	************************************************************************************************************************* 
+		372 
+	*************************************************************************************************************************
+	-->
+	<bean id="tarifa372BinomicaLinea" class="com.logicalnode.tarsys.domain.tarifa.media.TarifaBinomicaLinea">
+		<property name="codigoDeCategoriaDeTarifa" value="372"/>
+		<property name="instalacionDeEntrega" value="LineaDeMediaTension"/>
+		<property name="tensionDeAbastecimiento" value="23000"/>
+		<property name="potenciaReservadaMaxima" value="3000000"/>
+		<property name="potenciaReservadaMinima" value="40100"/>
+		<property name="grupoDeConsumo" value="Industrial"/>
+		<property name="consumos">
+			<list>
+				<bean id="consumo372PotenciaReservada" class="com.logicalnode.tarsys.domain.tarifa.media.CostoDelTipoDeConsumo">
+					<property name="id" value="consumo372PotenciaReservada"/>
+					<property name="nombreDeConcepto" value="PotenciaReservada"/>
+					<property name="unidad" value="GsXkWMes"/>
+					<property name="costo" value="34368"/>
+				</bean>
+			
+				<bean id="consumo372ExcesoDePotenciaReservada" class="com.logicalnode.tarsys.domain.tarifa.media.CostoDelTipoDeConsumo">
+					<property name="id" value="consumo372ExcesoDePotenciaReservada"/>
+					<property name="nombreDeConcepto" value="ExcesoDePotenciaReservada"/>
+					<property name="unidad" value="GsXkWMes"/>
+					<property name="costo" value="42897"/>
+				</bean>
+			
+				<bean id="consumo372EnergiaEnPunta" class="com.logicalnode.tarsys.domain.tarifa.media.CostoDelTipoDeConsumo">
+					<property name="id" value="consumo372EnergiaEnPunta"/>
+					<property name="nombreDeConcepto" value="EnergiaEnPunta"/>
+					<property name="unidad" value="GsXkWHora"/>
+					<property name="costo" value="228.90"/>
+				</bean>
+			
+				<bean id="consumo372EnergiaFueraDePunta" class="com.logicalnode.tarsys.domain.tarifa.media.CostoDelTipoDeConsumo">
+					<property name="id" value="consumo372EnergiaFueraDePunta"/>
+					<property name="nombreDeConcepto" value="EnergiaFueraDePunta"/>
+					<property name="unidad" value="GsXkWHora"/>
+					<property name="costo" value="91.58"/>
+				</bean>
+			</list>
+		</property>
+	</bean>
+
+	<!--
+	************************************************************************************************************************* 
+		532 
+	*************************************************************************************************************************
+	-->
+	<bean id="tarifa532BinomicaLinea" class="com.logicalnode.tarsys.domain.tarifa.media.TarifaBinomicaLinea">
+		<property name="codigoDeCategoriaDeTarifa" value="532"/>
+		<property name="instalacionDeEntrega" value="LineaDeMediaTension"/>
+		<property name="tensionDeAbastecimiento" value="23000"/>
+		<property name="potenciaReservadaMaxima" value="3000000"/>
+		<property name="potenciaReservadaMinima" value="40100"/>
+		<property name="grupoDeConsumo" value="General"/>
+		<property name="consumos">
+			<list>
+				<bean id="consumo532PotenciaReservada" class="com.logicalnode.tarsys.domain.tarifa.media.CostoDelTipoDeConsumo">
+					<property name="id" value="consumo532PotenciaReservada"/>
+					<property name="nombreDeConcepto" value="PotenciaReservada"/>
+					<property name="unidad" value="GsXkWMes"/>
+					<property name="costo" value="35642"/>
+				</bean>
+			
+				<bean id="consumo532ExcesoDePotenciaReservada" class="com.logicalnode.tarsys.domain.tarifa.media.CostoDelTipoDeConsumo">
+					<property name="id" value="consumo532ExcesoDePotenciaReservada"/>
+					<property name="nombreDeConcepto" value="ExcesoDePotenciaReservada"/>
+					<property name="unidad" value="GsXkWMes"/>
+					<property name="costo" value="44467"/>
+				</bean>
+			
+				<bean id="consumo532EnergiaEnPunta" class="com.logicalnode.tarsys.domain.tarifa.media.CostoDelTipoDeConsumo">
+					<property name="id" value="consumo532EnergiaEnPunta"/>
+					<property name="nombreDeConcepto" value="EnergiaEnPunta"/>
+					<property name="unidad" value="GsXkWHora"/>
+					<property name="costo" value="237.30"/>
+				</bean>
+			
+				<bean id="consumo532EnergiaFueraDePunta" class="com.logicalnode.tarsys.domain.tarifa.media.CostoDelTipoDeConsumo">
+					<property name="id" value="consumo532EnergiaFueraDePunta"/>
+					<property name="nombreDeConcepto" value="EnergiaFueraDePunta"/>
+					<property name="unidad" value="GsXkWHora"/>
+					<property name="costo" value="94.92"/>
+				</bean>
+			</list>
+		</property>
+	</bean>
+
+	<!--
+	************************************************************************************************************************* 
+		832 
+	*************************************************************************************************************************
+	-->
+	<bean id="tarifa832BinomicaLinea" class="com.logicalnode.tarsys.domain.tarifa.media.TarifaBinomicaLinea">
+		<property name="codigoDeCategoriaDeTarifa" value="832"/>
+		<property name="instalacionDeEntrega" value="LineaDeMediaTension"/>
+		<property name="tensionDeAbastecimiento" value="23000"/>
+		<property name="potenciaReservadaMaxima" value="3000000"/>
+		<property name="potenciaReservadaMinima" value="40100"/>
+		<property name="grupoDeConsumo" value="Gubernamental"/>
+		<property name="consumos">
+			<list>
+				<bean id="consumo832PotenciaReservada" class="com.logicalnode.tarsys.domain.tarifa.media.CostoDelTipoDeConsumo">
+					<property name="id" value="consumo832PotenciaReservada"/>
+					<property name="nombreDeConcepto" value="PotenciaReservada"/>
+					<property name="unidad" value="GsXkWMes"/>
+					<property name="costo" value="23853"/>
+				</bean>
+			
+				<bean id="consumo832ExcesoDePotenciaReservada" class="com.logicalnode.tarsys.domain.tarifa.media.CostoDelTipoDeConsumo">
+					<property name="id" value="consumo832ExcesoDePotenciaReservada"/>
+					<property name="nombreDeConcepto" value="ExcesoDePotenciaReservada"/>
+					<property name="unidad" value="GsXkWMes"/>
+					<property name="costo" value="29779"/>
+				</bean>
+			
+				<bean id="consumo832EnergiaEnPunta" class="com.logicalnode.tarsys.domain.tarifa.media.CostoDelTipoDeConsumo">
+					<property name="id" value="consumo832EnergiaEnPunta"/>
+					<property name="nombreDeConcepto" value="EnergiaEnPunta"/>
+					<property name="unidad" value="GsXkWHora"/>
+					<property name="costo" value="158.92"/>
+				</bean>
+			
+				<bean id="consumo832EnergiaFueraDePunta" class="com.logicalnode.tarsys.domain.tarifa.media.CostoDelTipoDeConsumo">
+					<property name="id" value="consumo832EnergiaFueraDePunta"/>
+					<property name="nombreDeConcepto" value="EnergiaFueraDePunta"/>
+					<property name="unidad" value="GsXkWHora"/>
+					<property name="costo" value="63.62"/>
+				</bean>
+			</list>
+		</property>
+	</bean>
+
+</beans>

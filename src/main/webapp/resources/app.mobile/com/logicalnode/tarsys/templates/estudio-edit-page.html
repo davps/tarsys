@@ -1,0 +1,158 @@
+﻿<div data-role="header">
+    <a href="#" data-icon="back" class="back ui-btn-left">Atrás</a>
+    <h1>Estudios</h1>
+</div>
+
+<div data-role="content">
+
+		<h2>Edición de datos</h2>
+
+		<div data-role="fieldcontain" >
+			<label for="nombre">Nombre del estudio:</label>
+			<input type="text" name="nombre" id="nombre" value="<%= nombre %>"  />
+		</div>
+		<div data-role="fieldcontain">
+			<label for="empresa">Empresa:</label>
+			<input type="text" name="empresa" id="empresa" value="<%= empresa %>"  />
+		</div>
+		<div data-role="fieldcontain">
+			<label for="categoria" class="select">Categoria de la tarifa actual:</label>
+			<select name="categoria" id="categoria" >
+				<option value="261" <%= categoria == 261 ? 'selected' : ''%> >261	-	Tarifa binómica 	comercial	-	Subestación	</option>
+				<option value="371" <%= categoria == 371 ? 'selected' : ''%> >371	-	Tarifa binómica 	industrial	-	Subestación	</option>
+				<option value="531" <%= categoria == 531 ? 'selected' : ''%> >531	-	Tarifa binómica 	general	-	Subestación	</option>
+				<option value="831" <%= categoria == 831 ? 'selected' : ''%> >831	-	Tarifa binómica 	gubernamental	-	Subestación	</option>
+				<option value="152" <%= categoria == 152 ? 'selected' : ''%> >152	-	Tarifa binómica 	residencial	-	Linea	</option>
+				<option value="262" <%= categoria == 262 ? 'selected' : ''%> >262	-	Tarifa binómica 	comercial	-	Linea	</option>
+				<option value="372" <%= categoria == 372 ? 'selected' : ''%> >372	-	Tarifa binómica 	industrial	-	Linea	</option>
+				<option value="532" <%= categoria == 532 ? 'selected' : ''%> >532	-	Tarifa binómica 	general	-	Linea	</option>
+				<option value="832" <%= categoria == 832 ? 'selected' : ''%> >832	-	Tarifa binómica 	gubernamental	-	Linea	</option>
+				<option value="153" <%= categoria == 153 ? 'selected' : ''%> >153	-	Tarifa monómica		residencial	-	Linea	</option>
+				<option value="263" <%= categoria == 263 ? 'selected' : ''%> >263	-	Tarifa monómica		comercial	-	Linea	</option>
+				<option value="373" <%= categoria == 373 ? 'selected' : ''%> >373	-	Tarifa monómica		industrial	-	Linea	</option>
+				<option value="533" <%= categoria == 533 ? 'selected' : ''%> >533	-	Tarifa monómica		general	-	Linea	</option>
+				<option value="833" <%= categoria == 833 ? 'selected' : ''%> >833	-	Tarifa monómica		gubernamental	-	Linea	</option>
+				<option value="731" <%= categoria == 731 ? 'selected' : ''%> >731	-	Tarifa binómica 	diferencial	-	Subestación	</option>
+				<option value="732" <%= categoria == 732 ? 'selected' : ''%> >732	-	Tarifa binómica 	diferencial	-	Linea	</option>
+			</select>
+		</div>
+		<div data-role="fieldcontain">
+			<label for="numeroDeMedidor">Número de medidor:</label>
+			<input type="text" name="numeroDeMedidor" id="numeroDeMedidor" value="<%= numeroDeMedidor %>"  />
+		</div>
+
+		<div data-role="fieldcontain">
+		<label for="observaciones">Observaciones:</label>
+		<textarea cols="40" rows="8" name="observaciones" id="observaciones"><%=observaciones%></textarea>
+		</div>
+
+<!-- 		<div data-role="fieldcontain"> -->
+<!--          <label for="search">Search Input:</label> -->
+<!--          <input type="search" name="password" id="search" value=""  /> -->
+<!-- 		</div> -->
+
+<!-- 		<div data-role="fieldcontain"> -->
+<!-- 			<label for="slider2">Flip switch:</label> -->
+<!-- 			<select name="slider2" id="slider2" data-role="slider"> -->
+<!-- 				<option value="off">Off</option> -->
+<!-- 				<option value="on">On</option> -->
+<!-- 			</select> -->
+<!-- 		</div> -->
+
+<!-- 		<div data-role="fieldcontain"> -->
+<!-- 			<label for="slider">Slider:</label> -->
+<!-- 		 	<input type="range" name="slider" id="slider" value="50" min="0" max="100" data-highlight="true"  /> -->
+<!-- 		</div> -->
+
+<!-- 		<div data-role="fieldcontain"> -->
+<!-- 		<fieldset data-role="controlgroup"> -->
+<!-- 			<legend>Choose as many snacks as you'd like:</legend> -->
+<!-- 			<input type="checkbox" name="checkbox-1a" id="checkbox-1a" class="custom" /> -->
+<!-- 			<label for="checkbox-1a">Cheetos</label> -->
+
+<!-- 			<input type="checkbox" name="checkbox-2a" id="checkbox-2a" class="custom" /> -->
+<!-- 			<label for="checkbox-2a">Doritos</label> -->
+
+<!-- 			<input type="checkbox" name="checkbox-3a" id="checkbox-3a" class="custom" /> -->
+<!-- 			<label for="checkbox-3a">Fritos</label> -->
+
+<!-- 			<input type="checkbox" name="checkbox-4a" id="checkbox-4a" class="custom" /> -->
+<!-- 			<label for="checkbox-4a">Sun Chips</label> -->
+<!-- 	    </fieldset> -->
+<!-- 		</div> -->
+
+<!-- 		<div data-role="fieldcontain"> -->
+<!-- 		<fieldset data-role="controlgroup" data-type="horizontal"> -->
+<!-- 	    	<legend>Font styling:</legend> -->
+<!-- 	    	<input type="checkbox" name="checkbox-6" id="checkbox-6" class="custom" /> -->
+<!-- 			<label for="checkbox-6">b</label> -->
+
+<!-- 			<input type="checkbox" name="checkbox-7" id="checkbox-7" class="custom" /> -->
+<!-- 			<label for="checkbox-7"><em>i</em></label> -->
+
+<!-- 			<input type="checkbox" name="checkbox-8" id="checkbox-8" class="custom" /> -->
+<!-- 			<label for="checkbox-8">u</label> -->
+<!-- 	    </fieldset> -->
+<!-- 		</div> -->
+
+<!-- 		<div data-role="fieldcontain"> -->
+<!-- 		    <fieldset data-role="controlgroup"> -->
+<!-- 		    	<legend>Choose a pet:</legend> -->
+<!-- 		         	<input type="radio" name="radio-choice-1" id="radio-choice-1" value="choice-1" checked="checked" /> -->
+<!-- 		         	<label for="radio-choice-1">Cat</label> -->
+
+<!-- 		         	<input type="radio" name="radio-choice-1" id="radio-choice-2" value="choice-2"  /> -->
+<!-- 		         	<label for="radio-choice-2">Dog</label> -->
+
+<!-- 		         	<input type="radio" name="radio-choice-1" id="radio-choice-3" value="choice-3"  /> -->
+<!-- 		         	<label for="radio-choice-3">Hamster</label> -->
+
+<!-- 		         	<input type="radio" name="radio-choice-1" id="radio-choice-4" value="choice-4"  /> -->
+<!-- 		         	<label for="radio-choice-4">Lizard</label> -->
+<!-- 		    </fieldset> -->
+<!-- 		</div> -->
+
+<!-- 		<div data-role="fieldcontain"> -->
+<!-- 		    <fieldset data-role="controlgroup" data-type="horizontal"> -->
+<!-- 		     	<legend>Layout view:</legend> -->
+<!-- 		         	<input type="radio" name="radio-choice-b" id="radio-choice-c" value="on" checked="checked" /> -->
+<!-- 		         	<label for="radio-choice-c">List</label> -->
+<!-- 		         	<input type="radio" name="radio-choice-b" id="radio-choice-d" value="off" /> -->
+<!-- 		         	<label for="radio-choice-d">Grid</label> -->
+<!-- 		         	<input type="radio" name="radio-choice-b" id="radio-choice-e" value="other" /> -->
+<!-- 		         	<label for="radio-choice-e">Gallery</label> -->
+<!-- 		    </fieldset> -->
+<!-- 		</div> -->
+
+<!-- 		<div data-role="fieldcontain"> -->
+<!-- 			<label for="select-choice-1" class="select">Choose shipping method:</label> -->
+<!-- 			<select name="select-choice-1" id="select-choice-1"> -->
+<!-- 				<option value="standard">Standard: 7 day</option> -->
+<!-- 				<option value="rush">Rush: 3 days</option> -->
+<!-- 				<option value="express">Express: next day</option> -->
+<!-- 				<option value="overnight">Overnight</option> -->
+<!-- 			</select> -->
+<!-- 		</div> -->
+
+
+
+<!-- 		<div data-role="fieldcontain"> -->
+<!-- 			<label for="select-choice-a" class="select">Choose shipping method:</label> -->
+<!-- 			<select name="select-choice-a" id="select-choice-a" data-native-menu="false"> -->
+<!-- 				<option>Custom menu example</option> -->
+<!-- 				<option value="standard">Standard: 7 day</option> -->
+<!-- 				<option value="rush">Rush: 3 days</option> -->
+<!-- 				<option value="express">Express: next day</option> -->
+<!-- 				<option value="overnight">Overnight</option> -->
+<!-- 			</select> -->
+<!-- 		</div> -->
+
+		<div class="ui-body ui-body-b">
+		<fieldset class="ui-grid-a">
+				<div class="ui-block-a"><button class="cancelar" data-theme="d">Cancelar</button></div>
+				<div class="ui-block-b"><button class="guardar" data-theme="a">Guardar</button></div>
+	    </fieldset>
+		</div>
+
+		
+</div>

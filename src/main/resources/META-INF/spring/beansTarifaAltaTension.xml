@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!--
+	************************************************************************************************************************* 
+		60-10 
+	*************************************************************************************************************************
+	-->
+	<bean id="tarifa60-10AltaTension" class="com.logicalnode.tarsys.domain.tarifa.media.TarifaAltaTension">
+		<property name="codigoDeCategoriaDeTarifa" value="60-10"/>
+		<property name="instalacionDeEntrega">
+			<list>
+				<value>LineaDeAltaTension</value>
+				<value>Estacion</value>
+				<value>Subestacion</value>
+			</list>
+		</property>
+		<property name="tensionDeAbastecimiento" value="66000"/>
+		<property name="grupoDeConsumo" value="AltaYMuyAltaTension"/>
+		<property name="consumos">
+			<list>
+				<bean id="consumo60-10PotenciaReservada" class="com.logicalnode.tarsys.domain.tarifa.media.CostoDelTipoDeConsumo">
+					<property name="id" value="consumo60-10PotenciaReservada"/>
+					<property name="nombreDeConcepto" value="PotenciaReservada"/>
+					<property name="unidad" value="GsXkWMes"/>
+					<property name="costo" value="44201"/>
+				</bean>
+
+				<bean id="consumo60-10ExcesoDePotenciaReservadaEnPunta" class="com.logicalnode.tarsys.domain.tarifa.media.CostoDelTipoDeConsumo">
+					<property name="id" value="consumo60-10ExcesoDePotenciaReservadaEnPunta"/>
+					<property name="nombreDeConcepto" value="ExcesoDePotenciaReservadaEnPunta"/>
+					<property name="unidad" value="GsXkWMes"/>
+					<property name="costo" value="71275"/>
+				</bean>
+			
+				<bean id="consumo60-10ExcesoDePotenciaReservadaFueraDePunta" class="com.logicalnode.tarsys.domain.tarifa.media.CostoDelTipoDeConsumo">
+					<property name="id" value="consumo60-10ExcesoDePotenciaReservadaFueraDePunta"/>
+					<property name="nombreDeConcepto" value="ExcesoDePotenciaReservadaFueraDePunta"/>
+					<property name="unidad" value="GsXkWMes"/>
+					<property name="costo" value="32080"/>
+				</bean>
+			
+				<bean id="consumo60-10Energia" class="com.logicalnode.tarsys.domain.tarifa.media.CostoDelTipoDeConsumo">
+					<property name="id" value="consumo60-10Energia"/>
+					<property name="nombreDeConcepto" value="Energia"/>
+					<property name="unidad" value="GsXkWHora"/>
+					<property name="costo" value="57.12"/>
+				</bean>
+			</list>
+		</property>
+	</bean>
+
+</beans>

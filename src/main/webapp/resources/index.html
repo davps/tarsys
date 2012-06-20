@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html class="ui-mobile-rendering"> 
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Logicalnode analytics</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="resources/assets.mobile/css/jquery.mobile/jquery.mobile.css"/>
+<link rel="stylesheet" type="text/css" href="resources/assets.mobile/css/style.css">
+
+</head>
+
+	
+    <script type="text/template" id="page1">
+
+        <div data-role="header">
+            <a href="#" data-icon="back" class="back ui-btn-left">Back</a>
+            <h1>Page 1</h1>
+        </div>
+
+        <div data-role="content">
+            <p>This is Page 1. It was created dynamically using an underscore.js template.</p>
+            <p>Navigate to:</p>
+            <ul data-role="listview" data-inset="true">
+                <li><a href="#">Home</a></li>
+                <li><a href="#page2">Page 2</a></li>
+            </ul>
+        </div>
+
+    </script>
+	
+    <script type="text/template" id="page2">
+
+        <div data-role="header">
+            <a href="#" data-icon="back" class="back ui-btn-left">Back</a>
+            <h1>Page 2</h1>
+        </div>
+
+        <div data-role="content">
+            <p>This is Page 2. It was created dynamically using an underscore.js template.</p>
+            <p>Navigate to:</p>
+            <ul data-role="listview" data-inset="true">
+                <li><a href="#">Home</a></li>
+                <li><a href="#page1">Page 1</a></li>
+            </ul>
+        </div>
+
+    </script>
+	
+
+	
+    <script src="resources/assets.mobile/js/jquery.js"></script>
+    <script src="resources/app.mobile/com/logicalnode/tarsys/jqm-config.js"></script>
+    <script src="resources/assets.mobile/js/jquery.mobile.js"></script>
+	<script src="resources/assets.mobile/js/underscore.js"></script>
+	<script src="resources/assets.mobile/js/backbone.js"></script>
+	<script src="resources/assets.mobile/js/flotr2.js"></script>
+
+	<script src="resources/app.mobile/com/logicalnode/tarsys/namespace.js"></script>
+	<script src="resources/app.mobile/com/logicalnode/tarsys/models/Estudio.js"></script>
+	<script src="resources/app.mobile/com/logicalnode/tarsys/models/Factura.js"></script>
+	<script src="resources/app.mobile/com/logicalnode/tarsys/models/Consumo.js"></script>
+	<script src="resources/app.mobile/com/logicalnode/tarsys/models/Tarifa.js"></script>
+	<script src="resources/app.mobile/com/logicalnode/tarsys/collections/Estudios.js"></script>
+	<script src="resources/app.mobile/com/logicalnode/tarsys/collections/Facturas.js"></script>
+	<script src="resources/app.mobile/com/logicalnode/tarsys/collections/Consumos.js"></script>
+	<script src="resources/app.mobile/com/logicalnode/tarsys/collections/Tarifas.js"></script>
+	<script src="resources/app.mobile/com/logicalnode/tarsys/views/Page1View.js"></script>
+	<script src="resources/app.mobile/com/logicalnode/tarsys/views/Page2View.js"></script>
+	<script src="resources/app.mobile/com/logicalnode/tarsys/views/EstudioEditView.js"></script>
+	<script src="resources/app.mobile/com/logicalnode/tarsys/views/EstudioHomeView.js"></script>
+	<script src="resources/app.mobile/com/logicalnode/tarsys/views/EstudioMainView.js"></script>
+	<script src="resources/app.mobile/com/logicalnode/tarsys/views/EstudioOptimizerView.js"></script>
+	<script src="resources/app.mobile/com/logicalnode/tarsys/views/EstudioListItemView.js"></script>
+	<script src="resources/app.mobile/com/logicalnode/tarsys/views/EstudioListView.js"></script>
+	<script src="resources/app.mobile/com/logicalnode/tarsys/views/FacturaListItemView.js"></script>
+	<script src="resources/app.mobile/com/logicalnode/tarsys/views/FacturaListView.js"></script>
+	<script src="resources/app.mobile/com/logicalnode/tarsys/views/FacturaEditView.js"></script>
+	<script src="resources/app.mobile/com/logicalnode/tarsys/views/ConsumoItemSegunTipoView.js"></script>
+	<script src="resources/app.mobile/com/logicalnode/tarsys/views/ConsumoEditView.js"></script>
+	<script src="resources/app.mobile/com/logicalnode/tarsys/views/HomeView.js"></script>
+	<script src="resources/app.mobile/com/logicalnode/tarsys/routers/AppRouter.js"></script>
+	<script src="resources/app.mobile/com/logicalnode/tarsys/utils/utils.js"></script>
+	<script src="resources/app.mobile/main.js"></script>
+	
+<body>
+</body>
+</html>

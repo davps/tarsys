@@ -1,0 +1,25 @@
+﻿<div data-role="header">
+    <a href="#" data-icon="back" class="back ui-btn-left">Atrás</a>
+    <h1>Estudio</h1>
+</div>
+
+<div data-role="content">
+	<p>
+		Para realizar este estudio, necesitamos que ingreses tu historial de facturación
+	   	Tu historial de facturación consiste en una colección de datos de tus últimas facturas.
+	</p>
+
+    <p>Ingresa una nueva factura a tu historial:</p>
+    <a href="#estudios/<%=id%>/facturas/nuevo" data-role="button" data-icon="plus">Nueva factura</a>
+    
+    <p>Observa las facturas de tu historial:</p>
+    <a href="#estudios/<%=id%>/facturas" data-role="button" data-icon="search">Lista de facturas</a>
+
+    <p>o calcula tu mejor tarifa:</p>
+    <a href="#estudios/<%=id%>/optimizar" data-role="button" data-icon="refresh">Cálcular tarifa óptima</a>
+<!-- 	<a href="api/estudios/<%=id%>/optimizar" data-role="button" data-icon="refresh">Cálcular tarifa óptima</a> -->
+
+	<p>Este es el gráfico de consumos</p>
+	<div id="grafico-de-consumos" style="width: 100%; height: 300px; margin: 12px auto 18px auto; background-color: white;"></div>
+    
+</div>

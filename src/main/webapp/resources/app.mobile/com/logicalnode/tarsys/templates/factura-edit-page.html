@@ -1,0 +1,25 @@
+﻿<div data-role="header">
+    <a href="#" data-icon="back" class="back ui-btn-left">Atrás</a>
+    <h1>Facturas</h1>
+</div>
+
+<div data-role="content">
+
+		<h2>Edición de datos</h2>
+
+		<div data-role="fieldcontain" >
+			<label for="nombre">Número de factura:</label>
+			<input type="text" name="numeroDeFactura" id="numeroDeFactura" value="<%= numeroDeFactura %>"  />
+		</div>
+		
+		<div id="replace-by-consumos-divs"></div>
+
+		<div class="ui-body ui-body-b">
+			<fieldset class="ui-grid-a">
+					<div class="ui-block-a"><button class="cancelar" data-theme="d">Cancelar</button></div>
+					<div class="ui-block-b"><button class="guardar" data-theme="a">Guardar</button></div>
+		    </fieldset>
+		</div>
+
+		
+</div>
